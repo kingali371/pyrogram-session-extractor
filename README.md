@@ -1,15 +1,29 @@
-# استخراج جلسة Pyrogram 🔑
+# 🚀 Pyrogram Session Extractor API
 
-أداة بسيطة لاستخراج Session String من حساب تليجرام باستخدام Pyrogram
+واجهة برمجة تطبيقات (API) لاستخراج جلسات Pyrogram من حسابات تليجرام.
 
-## المتطلبات
-- Python 3.7+
-- حساب تليجرام
-- API ID و API Hash من [my.telegram.org](https://my.telegram.org)
+## 🎯 الميزات
 
-## التثبيت
+- استخراج Session String من أي حساب تليجرام
+- دعم التحقق بخطوتين (2FA)
+- واجهة API بسيطة وسهلة الاستخدام
+- جاهز للنشر على Render
+
+## 📦 التثبيت المحلي
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/pyrogram-session-extractor.git
+# 1. استنساخ المشروع
+git clone https://github.com/username/pyrogram-session-extractor.git
 cd pyrogram-session-extractor
+
+# 2. إنشاء بيئة افتراضية
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# أو
+venv\Scripts\activate     # Windows
+
+# 3. تثبيت المتطلبات
 pip install -r requirements.txt
+
+# 4. تشغيل التطبيق
+python app.py

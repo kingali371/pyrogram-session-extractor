@@ -1,0 +1,19 @@
+
+## 2. رفع المشروع إلى GitHub
+
+### الطريقة الأولى: باستخدام GitHub CLI
+
+```bash
+# تسجيل الدخول
+gh auth login
+
+# إنشاء مستودع جديد
+gh repo create pyrogram-session-extractor --public --description "استخراج جلسة Pyrogram من حساب تليجرام"
+
+# رفع الكود
+git init
+git add .
+git commit -m "النسخة الأولى: استخراج جلسة Pyrogram"
+git branch -M main
+git remote add origin https://github.com/kingali371/pyrogram-session-extractor.git
+git push -u origin main

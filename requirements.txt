@@ -1,5 +1,12 @@
-pyrogram>=2.0.0
+# Pyrogram الأساسيات
+pyrogram>=2.0.0,<3.0.0
 tgcrypto>=1.2.3
-fastapi>=0.111.0
-uvicorn[standard]>=0.29.0
-pydantic>=2.0.0
+
+# FastAPI والخدمات
+fastapi>=0.111.0,<1.0.0
+uvicorn[standard]>=0.29.0,<1.0.0
+pydantic>=2.0.0,<3.0.0
+
+# أدوات إضافية
+python-multipart>=0.0.9
+httpx>=0.27.0
